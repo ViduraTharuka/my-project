@@ -20,7 +20,7 @@ function NavBar () {
                     </ul>
                 </div>
                 <div className="text-white text-lg md:hidden
-                bg-blue-400 p-2 rounded-full font-mono font-extrabold">
+                bg-blue-400 p-2 rounded-lg font-mono font-extrabold pl-16">
                     <Link to="/booking">Place a Booking</Link>
 
                 </div>

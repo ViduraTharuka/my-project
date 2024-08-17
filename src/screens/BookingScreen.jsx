@@ -8,6 +8,13 @@ import ash_suv from '../assets/ash_suv.png'
 import blue_vitz from '../assets/blue_vitz.png'
 import Slider from "react-slick"
 import React from 'react';
+import eis from '../assets/nissan-hatchback-1.2.png';
+import wingroad from '../assets/nissan-sedan-wingroad-1.0.png';
+import xtrail from '../assets/nissan-suv-xtrail-1.1.png'
+import peugeot307 from '../assets/peugeot-hatchback-1.0.png'
+import v8 from '../assets/toyota-suv-montero-1.0.png'
+import townace from '../assets/toyota-family-townace-1.0.png'
+import belta from '../assets/toyota-sedan-belta-1.0.png'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,46 +26,53 @@ function BookingScreen () {
 
     const car_data = [
         {
-            model : 'Mazda 2024',
+            model : 'Nissan eis',
             no_of_seats : '5 (with driver)',
             price : '5000 LKR per day',
-            reg_no : 'CAB 0001',
-            img_source : `${black_mazda}`
+            reg_no : 'CBB 9427',
+            img_source : `${eis}`
         },
         {
-            model : 'Toyota prius',
+            model : 'Nissan wingroad',
             no_of_seats : '5 (with driver)',
             price : '5000 LKR per day',
-            reg_no : 'CAB 0002',
-            img_source : `${red_alto}`
+            reg_no : 'KQ 6000',
+            img_source : `${wingroad}`
             },
         {
-            model : 'Mazda 202',
+            model : 'Nissan x-trail',
             no_of_seats : '5 (with driver)',
             price : '5000 LKR per day',
-            reg_no : 'CAB 0001',
-            img_source : `${ash_suv}`
+            reg_no : 'JA 8706',
+            img_source : `${xtrail}`
         },
         {
-            model : 'Mazda 2024',
+            model : 'Toyota v8',
             no_of_seats : '5 (with driver)',
             price : '5000 LKR per day',
-            reg_no : 'CAB 0001',
-            img_source : `${yellow_alto}`
+            reg_no : 'XXX ####',
+            img_source : `${v8}`
         },
         {
-            model : 'Mazda 2024',
+            model : 'Peugeot 307',
             no_of_seats : '5 (with driver)',
             price : '5000 LKR per day',
-            reg_no : 'CAB 0001',
-            img_source : `${blue_vitz}`
+            reg_no : 'GM 2802',
+            img_source : `${peugeot307}`
         },
         {
-            model : 'Mazda 2024',
+            model : 'Toyota Townace',
             no_of_seats : '5 (with driver)',
             price : '5000 LKR per day',
-            reg_no : 'CAB 0001',
-            img_source : `${ash_suv}`
+            reg_no : 'PE 2390',
+            img_source : `${townace}`
+        },
+        {
+            model : 'Toyota Belta',
+            no_of_seats : '5 (with driver)',
+            price : '5000 LKR per day',
+            reg_no : 'KM 7276',
+            img_source : `${belta}`
         },
     ]
 
@@ -117,7 +131,7 @@ function BookingScreen () {
 
     const handleWhatsAppClick = () => {
         console.log('triggered')
-        const phoneNumber = '94774398403'; // Your phone number in international format without the plus sign
+        const phoneNumber = '94772250135'; // Your phone number in international format without the plus sign
         console.log(phoneNumber)
         const message = `
           Hello, I would like to inquire about your services.
